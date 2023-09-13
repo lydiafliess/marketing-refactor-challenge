@@ -85,6 +85,11 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* I noticed the following lines of code were the same for each class and element.
+To avoid repeating the same code, I used commas between the following classes & respective elements
+to apply the same properties. I made these adjustments on lines 94 through 126. This brought
+the length of this file down from 200 lines to 138.
+*/
 
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
