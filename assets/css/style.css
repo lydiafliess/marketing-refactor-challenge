@@ -18,7 +18,7 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
+} 
 
 .header h1 .seo {
     color: #d9dcd6;
@@ -31,11 +31,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*
+I removed the following lines of code as they were unnecessary.
 .header section ul {
     list-style-type: none;
 }
-
+*/
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
@@ -86,9 +87,8 @@ p {
     background-color: #2589bd;
 }
 /* I noticed the following lines of code were the same for each class and element.
-To avoid repeating the same code, I used commas between the following classes & respective elements
-to apply the same properties. I made these adjustments on lines 94 through 126. This brought
-the length of this file down from 200 lines to 138.
+I used commas between the following classes & respective elements to clean it up.
+I made these adjustments on lines 94 through 126. This brought the length of this file down from 200 lines to 138.
 */
 
 .benefit-lead, .benefit-brand, .benefit-cost {
@@ -130,8 +130,9 @@ the length of this file down from 200 lines to 138.
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    h2 {
+        font-size: 20px;
+    }
 }
+/* I moved the font size declaration for h2 into the same footer selection as it was redundant to have an extra line of code */
 
-.footer h2 {
-    font-size: 20px;
-}
