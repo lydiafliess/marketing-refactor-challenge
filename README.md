@@ -11,9 +11,8 @@ I also removed some repetitive code within the style.css file to clean it up.
 
 ## Installation
 
-N/A
-Please refer to the live link to access the website:
-https://lydiafliess.github.io/marketing-refactor-challenge/
+- Please refer to the live link to access the website:
+- https://lydiafliess.github.io/marketing-refactor-challenge/
 
 ## Usage
 
